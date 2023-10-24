@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react";
 import { ApiClient } from "../../interceptors/axios";
+import React from "react"
+
 const DoingExercise = () => {
     const {slug} = useParams()
     const [ listQuestions, setListQuestions ] = useState([])

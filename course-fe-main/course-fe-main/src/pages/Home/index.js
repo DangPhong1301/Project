@@ -4,6 +4,8 @@ import Banner from '../../components/Banner';
 import CardCourse from '../../components/CardCourse';
 import { useEffect, useState } from 'react';
 import { ApiClient } from '../../interceptors/axios';
+import React from "react"
+
 
 
 function Home() {

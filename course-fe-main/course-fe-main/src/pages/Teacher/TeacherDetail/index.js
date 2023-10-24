@@ -10,6 +10,8 @@ import {
 import { ApiClient } from '../../../interceptors/axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import React from "react"
+
 
 const { Header, Sider, Content } = Layout;
 const TeacherDetails = () => {

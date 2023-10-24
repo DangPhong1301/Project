@@ -4,6 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 // import '../Login/Login.css'
 import { ApiClient } from "../../interceptors/axios";
 import { useState } from "react";
+import React from "react"
+
 
 function Form(props) {
     const { register, handleSubmit } = useForm();

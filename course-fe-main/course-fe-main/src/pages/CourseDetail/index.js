@@ -5,6 +5,8 @@ import { ApiClient } from "../../interceptors/axios";
 import { Layout, Menu, Button, theme, Descriptions, Badge, Space, Table, Modal, Avatar } from 'antd';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import React from "react"
+
 function CourseDetail() {
     const { slug } = useParams();
     const nav = useNavigate();
@@ -117,11 +119,11 @@ function CourseDetail() {
                 autoClose={5000}
                 hideProgressBar={false}
                 newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
+                closeOnClick 
+                rtl={false} 
+                pauseOnFocusLoss 
+                draggable 
+                pauseOnHover 
                 theme="light"
             />
         </div>

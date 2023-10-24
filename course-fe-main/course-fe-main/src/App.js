@@ -20,6 +20,9 @@ import CourseDetail from './pages/CourseDetail'
 import Learning from './pages/Learning';
 import Exercise from './pages/Exercise/Exercise';
 import DoingExercise from './pages/Exercise/DoingExercise';
+import React from "react"
+
+
 function App() {
   return (
     <BrowserRouter>
